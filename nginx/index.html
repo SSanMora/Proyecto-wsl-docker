@@ -2,10 +2,41 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Entorno Controlled WSL2</title>
+    <title>Laboratorio WSL2 y Docker</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            margin-top: 50px; 
+            background-color: #f4f4f9; 
+        }
+        h1 { 
+            color: #333; 
+        }
+        .container { 
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            display: inline-block; 
+            background: white; 
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .footer {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #555;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>¡Servidor Nginx funcionando en WSL2!</h1>
-    <p>Grupo de Estudiantes - Infraestructura de Contenedores.</p>
+    <div class="container">
+        <h1>¡Servidor Nginx funcionando en WSL2!</h1>
+        <p>Este contenido es estático y se sirve desde el contenedor frontal.</p>
+        <div class="footer">
+            <p>Grupo de Estudiantes - Infraestructura de Contenedores</p>
+        </div>
+    </div>
 </body>
 </html>

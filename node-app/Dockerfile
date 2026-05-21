@@ -1,7 +1,9 @@
-FROM node:18-alpine
+FROM node:current-alpine
 WORKDIR /usr/src/app
-COPY package*.json ./
-RUN npm install
-COPY . .
+
+# Instalar express directamente antes de ejecutar el código
+RUN npm install express
+
+COPY index.js .
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["node", "index.js"]

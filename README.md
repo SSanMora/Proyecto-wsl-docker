@@ -61,7 +61,7 @@ Control de versiones: git status, git add ., git commit -m "...", y git push ori
 Muestra la página HTML estática de bienvenida servida directamente por el contenedor de Nginx.
 
 2. API Segura de Node.js (Proxy Inverso - http://localhost:8080/api/)
-<img width="1857" height="227" alt="image" src="https://github.com/user-attachments/assets/7af95547-28f3-4e40-a8f5-9d4a21c322e4" />
+<img width="1863" height="166" alt="image" src="https://github.com/user-attachments/assets/6ec7d059-118d-422d-92d2-723891b0864b" />
 Demuestra que Nginx toma la petición en el puerto 8080, reconoce la ruta /api/ y la transfiere internamente al contenedor aislado de Node.js, el cual responde exitosamente con un objeto JSON generado con código nativo y sin librerías externas.
 
 3. Registro de Base de Datos en pgAdmin (http://localhost:5050)

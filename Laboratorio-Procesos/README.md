@@ -3,9 +3,9 @@
 Este directorio contiene exclusivamente las herramientas, scripts y guías de ejecución desarrolladas para la simulación de alta contención de hardware, optimización del planificador de Linux y mitigación de hilos críticos en el contenedor.
 
 ## 👥 Integrantes del Grupo
-* **Integrante 1 (Líder):** [Tu Nombre Completo] - GitHub: [@SSanMora]
-* **Integrante 2:** [Nombre de tu compañero] - GitHub: [@usuario2]
-* **Integrante 3:** [Nombre de tu compañero] - GitHub: [@usuario3]
+* **Integrante 1:** Santiago Serrano Morales - GitHub: [@SSanMora] - Codigo: 2477006 - Correo: serrano.santiago@correounivalle.edu.co
+* **Integrante 2:** Samuel Esteban Peña Jaramillo - GitHub: [@SamuJaramillo] - Codigo: 2477399 - Correo: samuel.pena@correounivalle.edu.co
+
 
 ## 📁 Contenido de este Módulo
 * **script.py:** Generador de caos matemático programado en Python para forzar la saturación de los núcleos de procesamiento.
